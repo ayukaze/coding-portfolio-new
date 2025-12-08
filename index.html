@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio - Neon Cyberpunk</title>
+    <meta name="description" content="Full Stack Developer portfolio showcasing projects, skills, and contact information with neon cyberpunk aesthetic">
+    <meta name="keywords" content="developer, portfolio, full stack, web development, neon, cyberpunk">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Developer Portfolio - Neon Cyberpunk">
+    <meta property="og:description" content="Full Stack Developer portfolio with neon cyberpunk aesthetic">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated background elements -->
+    <div class="background-animation">
+        <div class="neon-grid"></div>
+        <div class="floating-particles" id="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-container glass-morphism">
+        <div class="nav-content">
+            <div class="logo"></div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section glass-morphism">
+        <div class="hero-content">
+            <h1 class="neon-text glitch-effect" data-text="ABHINAV MAHAPATRA">ABHINAV MAHAPATRA</h1>
+            <h2 class="cyber-title">Full Stack Developer</h2>
+            <p class="hero-subtitle">Crafting digital experiences you deserve</p>
+            <div class="hero-buttons">
+                <button class="neon-button primary" onclick="scrollToSection('projects')">View Projects</button>
+                <button class="neon-button secondary" onclick="scrollToSection('contact')">Contact Me</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-rain" id="codeRain"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section glass-morphism">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title neon-text">ABOUT</h2>
+                <div class="neon-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Passionate full stack developer with a love for creating immersive digital experiences. I specialize in building modern web applications that combine cutting-edge technology with stunning visual design.</p>
+                    <p>With a background in computer science and years of experience in the field, I bring ideas to life through clean code, innovative solutions, and a keen eye for detail. My expertise spans across frontend frameworks, backend technologies, and everything in between.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-morphism">
+                        <span class="stat-number neon-text">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card glass-morphism">
+                        <span class="stat-number neon-text">10+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-card glass-morphism">
+                        <span class="stat-number neon-text">5+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section glass-morphism">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title neon-text">PROJECTS</h2>
+                <div class="neon-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-morphism">
+                    <div class="project-image">
+                        <div class="project-placeholder neon-gradient">
+                            <img src="images/headerImage.webp" alt="cat webpage" class="project-logo">
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-project neon-button">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title neon-text">Kittan-Klas</h3>
+                        <!-- <p class="project-description">Real-time data visualization dashboard with cyberpunk-themed UI components and interactive charts.</p> -->
+                         <p class="project-description">the only webpage you need to get on with the journey of being a cat</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">bootstrap</span>
+                            <span class="tech-tag">WebSocket</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://ayukaze.github.io/kitten-klas/" class="project-link neon-link" target="_blank">Live Demo</a>
+                            <a href="https://github.com/ayukaze/kitten-klas" class="project-link neon-link" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-morphism">
+                    <div class="project-image">
+                        <div class="project-placeholder neon-gradient pink">
+                            
+                        </div>
+                        <div class="project-overlay">
+                            <button class="view-project neon-button">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title neon-text pink">Neon Chat</h3>
+                        <p class="project-description">Real-time messaging application with neon-themed chat interface and end-to-end encryption.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link neon-link">Live Demo</a>
+                            <a href="#" class="project-link neon-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-morphism">
+                    <div class="project-image">
+                        <div class="project-placeholder neon-gradient green"></div>
+                        <div class="project-overlay">
+                            <button class="view-project neon-button">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title neon-text green">Code Matrix</h3>
+                        <p class="project-description">AI-powered code analysis tool with futuristic interface and real-time collaboration features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link neon-link">Live Demo</a>
+                            <a href="#" class="project-link neon-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section glass-morphism">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title neon-text">SKILLS</h2>
+                <div class="neon-divider"></div>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3 class="category-title neon-text">Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">⚛️</div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <span class="skill-name">CSS/Sass</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📱</div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🅰️</div>
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title neon-text pink">Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🟢</div>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🗄️</div>
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🚀</div>
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title neon-text green">Tools & Others</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🔧</div>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐳</div>
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 72%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🎯</div>
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--level: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section glass-morphism">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title neon-text">CONTACT</h2>
+                <div class="neon-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="Your Name" class="form-input glass-morphism" required>
+                        <input type="email" id="email" placeholder="Your Email" class="form-input glass-morphism" required>
+                        <textarea id="message" placeholder="Your Message" class="form-input glass-morphism" rows="5" required></textarea>
+                        <button type="submit" class="neon-button">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item glass-morphism">
+                        <a href="mailto:abhinav.mahapatra18@gmail.com" class="contact-text-link" target="_blank"><span class="contact-icon">📧</span>
+                        <span class="contact-text">abhinav.mahapatra18@gmail.com</span></a>
+                    </div>
+                    <div class="contact-item glass-morphism">
+                       <a href="github.com/ayukaze" class="contact-text-link"> <span class="contact-icon">🔗</span>
+                        <span class="contact-text">https://github.com/ayukaze</span></a>
+                    </div>
+                    <div class="contact-item glass-morphism">
+                       <a href="" class="contact-text-link" target="_blank"> <span class="contact-icon">💼</span>
+                        <span class="contact-text">linkedin.com/in/abhinavmahapatra</span></a>
+                    </div>
+                    <div class="contact-item glass-morphism">
+                      <a href="" class="contact-text-link" target="_blank"><span class="contact-icon">🐦</span>
+                        <span class="contact-text">twitter.com/lft_ayukozuki</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass-morphism">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Your Name. Built with neon code and glass dreams.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link neon-link">GitHub</a>
+                    <a href="#" class="social-link neon-link">LinkedIn</a>
+                    <a href="#" class="social-link neon-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
